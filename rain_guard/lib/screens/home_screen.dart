@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                     style: TextStyle(fontSize: 24, color: Colors.white),
                   ),
                   Text(
-                    "Clock",
+                    formattedTime,
                     style: TextStyle(fontSize: 64, color: Colors.white),
                   ),
                   Text(
