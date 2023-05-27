@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rain_guard/rain_guard.iml" filepath="$PROJECT_DIR$/rain_guard/rain_guard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rain_guard/android/rain_guard_android.iml" filepath="$PROJECT_DIR$/rain_guard/android/rain_guard_android.iml" />
+    </modules>
+  </component>
+</project>
