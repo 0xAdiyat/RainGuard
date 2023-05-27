@@ -4,7 +4,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class ClockView extends StatefulWidget {
-  const ClockView({Key? key}) : super(key: key);
+  final double size;
+  const ClockView({Key? key, required this.size}) : super(key: key);
 
   @override
   _ClockViewState createState() => _ClockViewState();
@@ -22,8 +23,8 @@ class _ClockViewState extends State<ClockView> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 300,
-      height: 300,
+      width: widget.size,
+      height: widget.size,
       child: Transform.rotate(
         angle: -pi / 2,
         child: CustomPaint(

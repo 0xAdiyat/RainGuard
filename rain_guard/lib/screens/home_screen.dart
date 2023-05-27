@@ -54,7 +54,9 @@ class HomeScreen extends StatelessWidget {
                     formattedDate,
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
-                  ClockView(),
+                  ClockView(
+                    size: 250,
+                  ),
                   Text(
                     "Timezone",
                     style: TextStyle(fontSize: 20, color: Colors.white),
